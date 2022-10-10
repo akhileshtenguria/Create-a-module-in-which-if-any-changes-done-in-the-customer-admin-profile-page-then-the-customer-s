@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Email:etc/email_templates.xsd">
+    <template id="admin_customer_account_change_email" label="Admin Changed Customer Account info " file="admin_customer_account_change_email.html" type="html" module="Akhilesh_Customernotify" area="frontend"/>
+</config>

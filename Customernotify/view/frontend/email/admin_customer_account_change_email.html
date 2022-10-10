@@ -1,0 +1,12 @@
+<!--@subject New Customer Registration @-->
+{{template config_path="design/email/header_template"}}
+   <h1 style="font-size:22px;font-weight:normal;line-height:22px;margin:0 0 11px 0;">{{trans "Hello"}}, {{var name}}</h1>
+   <p>Name: {{var name}}</p>
+   <p>Email: {{var email}}</p>
+
+   <p>
+   {{trans "Thank You for connecting with us,"}}
+   </p>
+    <p> {{trans "admin did any change in your account please check your account. contact us 1800 200 300. "}}
+   </p>
+{{template config_path="design/email/footer_template"}}
